@@ -235,5 +235,5 @@ plt.show()
 # savemat('Zener_BLWN_SINN_pred_2layer1_2state_2neuron1_6000_10s.mat',
         # {'Train_y_pred': Train_y_pred, 'Test_y_pred_1_4': Test_y_pred[0],'Test_y_pred_5_8': Test_y_pred[1]})
 
-savemat('Zener_BLWN_SINN_pred_1layer_2state_2neuron1_3000_10s_fail.mat',
-        {'Train_y_pred': Train_y_pred, 'Test_y_pred_1_4': Test_y_pred[0],'Test_y_pred_5_8': Test_y_pred[1]})
+# savemat('Zener_BLWN_SINN_pred_1layer_2state_2neuron1_3000_10s_fail.mat',
+#         {'Train_y_pred': Train_y_pred, 'Test_y_pred_1_4': Test_y_pred[0],'Test_y_pred_5_8': Test_y_pred[1]})

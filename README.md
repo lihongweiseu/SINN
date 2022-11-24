@@ -1,6 +1,6 @@
 # Codes for the paper "State-integration neural network for modelling of forced-vibration systems"
 ---  coded in the Python environment utilizing the powerful deep learning library PyTorch.
-# # Illustrative example 1 Shear Zener model of viscoelastic dampers
+## Illustrative example 1 Shear Zener model of viscoelastic dampers
 1. _Zener_Sin_RNN_main.py_ is the main Python file for the quick denmonstration of the RNN model.
 2. _Zener_BLWN_SINN_main.py_ is the main Python file for the SINN model.
 3. _Zener_BLWN_preparation.m_ is the matlab file to generate the banded limited white noises as input signals.
@@ -11,7 +11,7 @@
 8. _Zener_BLWN_SINN_pred_1layer_2state_2neuron1_3000_10s_fail.mat_ stores the simualtion results for Fig.8 (failed case) in the paper.
 9. _Zener_BLWN_SINN_plot.py_ plots the results.
 
-# # Illustrative example 2 Nonlinear system subjected to acceleration excitation
+## Illustrative example 2 Nonlinear system subjected to acceleration excitation
 1. _num_SINN_2layer1_2state_2neuron1_main.py_ is the main Python file for the SINN model.
 2. _num_SINN_2layer1_2state_2neuron1_3000_loss5316em2.pt_ is the trained library of SINN model, users could load it in _num_SINN_2layer1_2state_2neuron1_main.py_ to genetate _num_data_pred1_2layer1_2state_2neuron1_3000.mat_ quickly.
 3. _num_data_preparation.py_ prepares the data.
@@ -21,7 +21,7 @@
 7. _num_data_pred1_2layer1_2state_2neuron1_3000.mat_ stores the prediction results using the SINN model.
 8. _num_plot.py_ plots the results.
 
-# # Illustrative example 3 a 6-Story hotel building with recorded seismic responses
+## Illustrative example 3 a 6-Story hotel building with recorded seismic responses
 1. _exp_SINN_1layer_3state_3neuron1_acc_roof_main.py_ is the main Python file for the SINN model.
 2. _exp_SINN_1layer_3state_3neuron1_acc_roof_10000_loss9413ep3.pt_ is the trained library of SINN model, users could load it in _exp_SINN_1layer_3state_3neuron1_acc_roof_main.py_ to genetate _exp_data_pred1_1layer_3state_3neuron1_acc_roof_10000.mat_ quickly.
 3. _results_exp_ag2utt.mat_ is the data file coming from the PhyCNN paper

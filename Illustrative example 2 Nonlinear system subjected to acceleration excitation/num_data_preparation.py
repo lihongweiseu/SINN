@@ -6,7 +6,7 @@
 # https://github.com/zhry10/PhyCNN
 
 # Users can run this code to generate num_data_ref.mat and num_data_pred0.mat (already included in the code package)
-# or just skip this code and just run the main code num_SINN.py
+# or just skip this code and just run the main code num_SINN_2layer1_2state_2neuron1_main.py
 
 import matplotlib.gridspec as gridspec
 import matplotlib.pyplot as plt

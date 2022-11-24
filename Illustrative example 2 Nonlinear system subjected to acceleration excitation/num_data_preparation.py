@@ -97,4 +97,3 @@ Test_y_pred0 = np.delete(Test_y_pred0, 19, axis = 0)
 # savemat('num_data_ref.mat', {'Train_u': Train_u, 'Train_y_ref': Train_y_ref,
 #                              'Test_u': Test_u, 'Test_y_ref': Test_y_ref})
 # savemat('num_data_pred0.mat', {'Train_y_pred0': Train_y_pred0, 'Test_y_pred0': Test_y_pred0})
-

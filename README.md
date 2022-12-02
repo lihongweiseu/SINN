@@ -1,4 +1,4 @@
-# Codes for the paper "State-integration neural network for modelling of forced-vibration systems"
+# Codes for the paper "Modelling of forced-vibration systems using state-integration neural network"
 ---  coded in the Python environment utilizing the powerful deep learning library PyTorch.
 ## Illustrative example 1 Shear Zener model of viscoelastic dampers
 1. _Zener_Sin_RNN_main.py_ is the main Python file for the quick denmonstration of the RNN model.

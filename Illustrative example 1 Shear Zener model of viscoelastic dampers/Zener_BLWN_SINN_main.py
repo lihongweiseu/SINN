@@ -194,8 +194,8 @@ plt.show()
 
 # %% Plot testing result
 Test_y_pred = (np.zeros((4, Test_Nt[0])), np.zeros((4, Test_Nt[1])))
-x = torch.zeros(4, state_size)
 for j in range(2):
+    x = torch.zeros(4, state_size)
     Test_u = torch.tensor(Test_data[j][1], dtype=torch.float)
     for i in range(Test_Nt[j] - 1):
         u = Test_u[:, i:i + 1]
